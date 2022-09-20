@@ -1,0 +1,242 @@
+/* RESET */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* MI ESTILO */
+
+.bg-hero {
+  background: url("img/bg-hero.jpg") rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: black;
+}
+
+body,
+nav select,
+a,
+button {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  padding-top: 1.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+nav > div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav a,
+select {
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}
+
+nav a {
+  background-color: #e50914;
+}
+
+nav select {
+  border: 1px solid white;
+  background: none;
+}
+
+nav option {
+  background-color: gray;
+}
+
+hr {
+  height: 7px;
+  border: none;
+  background-color: #313131;
+}
+
+section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.titulo {
+  max-width: 640px;
+  margin: 8rem auto 0 auto;
+}
+
+.titulo h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.titulo h2 {
+  font-size: 1.625rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.suscripcion {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.suscripcion p {
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+
+.suscripcion input {
+  border: none;
+  font-size: 1.875rem;
+  padding: 0.5em;
+  min-width: 500px;
+  margin: 0;
+}
+
+.suscripcion button {
+  font-size: 1.875rem;
+  padding: 0.5em 1em;
+  background-color: #e50914;
+  border: none;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  max-width: 80%;
+  margin: 4rem auto;
+}
+
+.feature--inverse {
+  flex-direction: row-reverse;
+}
+
+.feature > div {
+  max-width: 40%;
+}
+
+.feature img {
+  max-width: 42%;
+}
+
+.feature h2,
+#faq h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+#faq ul {
+  padding: 2.5rem 0;
+  width: 75%;
+  margin: 0 auto;
+  list-style-type: "+";
+}
+
+.feature p,
+#faq li {
+  font-size: 1.625rem;
+}
+
+#faq h2 {
+  text-align: center;
+}
+
+#faq li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75em 1em;
+  gap: 1em;
+  background-color: #424242;
+  margin-bottom: 8px;
+}
+
+footer {
+  max-width: 1000px;
+  margin: 4rem auto 2rem auto;
+  font-size: 0.8125rem;
+}
+
+footer > :first-child {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+footer > :last-child {
+  padding-top: 2rem;
+}
+
+footer,
+footer a,
+footer select {
+  color: gray;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+footer li {
+  min-width: 23%;
+}
+
+footer select {
+  border: 1px solid gray;
+  background: none;
+}
+
+footer option {
+  background-color: black;
+}

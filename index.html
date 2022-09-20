@@ -4,108 +4,166 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Netflix España - Ver series en línea, ver películas en línea</title>
   </head>
+
   <body>
-    <header>
-      <img src="img/netflix-logo.png" alt="Netflix logo" />
-      <form action="#" method="get">
-        <select name="Idioma">
-          <option value="es">Español</option>
-          <option value="en">English</option>
-        </select>
-      </form>
-      <a href="#">Iniciar sesión</a>
-    </header>
-    <main>
-      <section id="hero">
-        <h1>Todas las películas y series que desees, y mucho más.</h1>
-        <p>Disfruta donde quieras. Cancela cuando quieras.</p>
-        <p>
-          ¿Quieres ver algo ya? Escribe tu dirección de correo para crear una
-          suscripción a Netflix o reactivarla.
-        </p>
-        <form action="">
-          <input
-            type="email"
-            id="email"
-            placeholder="Dirección de correo"
-          /><input type="submit" value="Empezar" />
+    <div class="bg-hero">
+      <header>
+        <nav>
+          <img src="img/netflix-logo.png" alt="Netflix logo" />
+          <div>
+            <form action="#" method="get">
+              <select name="Idioma">
+                hola
+                <option value="es">Español</option>
+                <option value="en">English</option>
+              </select>
+            </form>
+            <a href="#">Iniciar sesión</a>
+          </div>
+        </nav>
+
+        <div class="titulo">
+          <h1>Todas las películas y series que desees, y mucho más.</h1>
+          <h2>Disfruta donde quieras. Cancela cuando quieras.</h2>
+        </div>
+
+        <form class="suscripcion" action="">
+          <p>
+            ¿Quieres ver algo ya? Escribe tu dirección de correo para crear una
+            suscripción a Netflix o reactivarla.
+          </p>
+          <input type="email" id="email" placeholder="Dirección de correo" />
+          <button type="submit">Empezar &gt</button>
         </form>
-      </section>
+      </header>
+    </div>
+    <main>
+      <hr />
       <section class="feature">
-        <h2>Disfruta de Netflix en tu TV.</h2>
-        <p>
-          Smart TV, Playstation, Xbox, Chromecast, Apple TV, reproductores
-          Blu-ray y muchos más.
-        </p>
-        <img src="" alt="" />
+        <div>
+          <h2>Disfruta de Netflix en tu TV.</h2>
+          <p>
+            Smart TV, Playstation, Xbox, Chromecast, Apple TV, reproductores
+            Blu-ray y muchos más.
+          </p>
+        </div>
+        <img src="img/feat-1.png" alt="" />
       </section>
+      <hr />
+      <section class="feature feature--inverse">
+        <div>
+          <h2>Descárgate tus series favoritas para verlas sin conexión.</h2>
+          <p>
+            Guarda tus títulos favoritos fácilmente para que siempre tengas algo
+            para ver.
+          </p>
+        </div>
+        <img src="img/feat-2.jpg" alt="" />
+      </section>
+      <hr />
       <section class="feature">
-        <h2>Descárgate tus series favoritas para verlas sin conexión.</h2>
-        <p>
-          Guarda tus títulos favoritos fácilmente para que siempre tengas algo
-          para ver.
-        </p>
-        <img src="" alt="" />
+        <div>
+          <h2>Disfruta en todas partes.</h2>
+          <p>
+            Reproduce en streaming todas las películas y series en tu móvil,
+            tableta, ordenador y TV sin pagar más.
+          </p>
+        </div>
+        <img src="img/feat-3.png" alt="" />
       </section>
-      <section class="feature">
-        <h2>Disfruta en todas partes.</h2>
-        <p>
-          Reproduce en streaming todas las películas y series en tu móvil,
-          tableta, ordenador y TV sin pagar más.
-        </p>
-        <img src="" alt="" />
+      <hr />
+      <section class="feature feature--inverse">
+        <div>
+          <h2>Crea perfiles infantiles.</h2>
+          <p>
+            Deja que los niños vivan aventuras con sus personajes favoritos en
+            un espacio diseñado exclusivamente para ellos, gratis con tu
+            suscripción.
+          </p>
+        </div>
+        <img src="img/feat-4.png" alt="" />
       </section>
-      <section class="feature">
-        <h2>Crea perfiles infantiles.</h2>
-        <p>
-          Deja que los niños vivan aventuras con sus personajes favoritos en un
-          espacio diseñado exclusivamente para ellos, gratis con tu suscripción.
-        </p>
-        <img src="" alt="" />
-      </section>
+      <hr />
       <section id="faq">
+        <h2>Preguntas frecuentes</h2>
         <ul>
-          <li>¿Qué es Netflix?</li>
-          <li>¿Cuánto cuesta Netflix?</li>
-          <li>¿Dónde puedo ver Netflix?</li>
-          <li>¿Cómo cancelo?</li>
-          <li>¿Qué puedo ver en Netlifx?</li>
-          <li>¿Es Netflix bueno para los niños?</li>
+          <li>
+            <div>¿Qué es Netflix?</div>
+            <div>+</div>
+          </li>
+          <li>
+            <div>¿Cuánto cuesta Netflix?</div>
+            <div>+</div>
+          </li>
+          <li>
+            <div>¿Dónde puedo ver Netflix?</div>
+            <div>+</div>
+          </li>
+          <li>
+            <div>¿Cómo cancelo?</div>
+            <div>+</div>
+          </li>
+          <li>
+            <div>¿Qué puedo ver en Netlifx?</div>
+            <div>+</div>
+          </li>
+          <li>
+            <div>¿Es Netflix bueno para los niños?</div>
+            <div>+</div>
+          </li>
         </ul>
         <p></p>
-        <!-- Copiar formulario email anterior -->
+        <div class="suscripcion">
+          <form class="suscripcion" action="">
+            <p>
+              ¿Quieres ver algo ya? Escribe tu dirección de correo para crear
+              una suscripción a Netflix o reactivarla.
+            </p>
+            <input type="email" id="email" placeholder="Dirección de correo" />
+            <button type="submit">Empezar &gt</button>
+          </form>
+        </div>
       </section>
+      <hr />
       <footer>
         <p>¿Preguntas? Llama al 900 822 376</p>
         <ul>
           <li><a href="#">Preguntas frecuentes</a></li>
-          <li><a href="#">Inversores</a></li>
-          <li><a href="#">Formas de ver</a></li>
-          <li><a href="#">Información corporativa</a></li>
-          <li><a href="#">Avisos legales</a></li>
-        </ul>
-        <ul>
           <li><a href="#">Centro de ayuda</a></li>
+          <li><a href="#">Cuenta</a></li>
+          <li><a href="#">Zona de prensa</a></li>
+          <li><a href="#">Inversores</a></li>
           <li><a href="#">Empleo</a></li>
+          <li><a href="#">Canjear tarjetas regalo</a></li>
+          <li><a href="#">Comprar tarjetas regalo</a></li>
+          <li><a href="#">Formas de ver</a></li>
           <li><a href="#">Términos de uso</a></li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Preferencias de cookies</a></li>
+          <li><a href="#">Información corporativa</a></li>
           <li><a href="#">Contáctanos</a></li>
+          <li><a href="#">Prueba de velocidad</a></li>
+          <li><a href="#">Garantía legal</a></li>
+          <li><a href="#">Avisos legales</a></li>
           <li><a href="#">Sólo en Netflix</a></li>
         </ul>
-        <ul>
-          <li><a href="#">Cuenta</a></li>
-          <li><a href="#">Canjear tarjetas regalo</a></li>
-          <li><a href="#">Privacidad</a></li>
-          <li><a href="#">Prueba de velocidad</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Zona de prensa</a></li>
-          <li><a href="#">Comprar tarjetas regalo</a></li>
-          <li><a href="#">Preferencias de cookies</a></li>
-          <li><a href="#">Garantía legal</a></li>
-        </ul>
-        <!-- Copiar formulario idioma anterior -->
+        <form action="#" method="get">
+          <select name="Idioma">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </form>
         <p>Netflix España</p>
       </footer>
     </main>
